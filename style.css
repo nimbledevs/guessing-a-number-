@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+}
+.container {
+    max-width: 1440px;
+    padding: 15px;
+    width: 100%;
+}
+.guess_num{
+    width: 120px;
+    height: 100px;
+
+}
+.Number {
+    width: 120px;
+    height: 100px;
+    background: #ffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex
+;
+    z-index: 1;
+}
+.guessing-num-sec{
+    display: flex;
+}
+.guessing-num-sec {
+    display: flex
+;
+justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.checkWhitebox {
+    display: flex
+;
+    flex-direction: column;
+    gap: 30px;
+}
+.checkWhitebox input[type="text"] {
+    height: 100px;
+    border: 2px solid #fff;
+}
+.restart-game-test button {
+    padding: 5px 25px;
+    font-family: sans-serif;
+}
+.restart-game-test {
+    display: flex
+;
+    justify-content: space-between;
+}
+.headingText {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding: 50px 0px;
+}
+.restart-game-test p {
+    color: #fff;
+    font-weight: 700;
+}
+.scoreText h2 {
+    color: #fff;
+    padding-bottom:30px;
+}
+.userNumber {
+    display: flex
+;
+    justify-content: center;
+    height: 80px;
+}
+.scoreText p{
+
+    color:#fff;
+}
+#guessing-sec {
+    display: flex
+;
+    justify-content: center;
+}
+#guessing-sec{
+    position: relative;
+}
+#guessing-sec::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background:#fff;
+    top: 50%;
+
+}
+.checkWhitebox button{
+    font-size: 16px;
+    padding: 6px;
+}
+input.user-input-number {
+font-size: 30px;
+    text-align: center;
+}
