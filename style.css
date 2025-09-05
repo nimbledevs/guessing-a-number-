@@ -105,3 +105,10 @@ input.user-input-number {
 font-size: 30px;
     text-align: center;
 }
+input.guess_num {
+    font-size: 40px;
+    text-align: center;
+}
+.Number {
+    font-size: 80px;
+}
