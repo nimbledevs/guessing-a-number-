@@ -72,3 +72,4 @@ const anotherCAlculate = 15/100;
 const tip = billvalue <=430 && billvalue <=50 ? billvalue*tipCalculator : billvalue* anotherCAlculate;
 console.log(`the billvelue is ${billvalue} and the tip is ${tip} and the total amount is ${billvalue + tip}`);
 
+
